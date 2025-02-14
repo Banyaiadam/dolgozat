@@ -21,7 +21,8 @@ class DatabaseSeeder extends Seeder
         ]);
         User::factory()->create([
             'name' => 'admin1',
-            'role' => 'admin'
+            'role' => 'admin',
+            'password' => 'jelszo123'
         ]);
     }
 }
